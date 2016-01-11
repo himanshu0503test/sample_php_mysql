@@ -1,8 +1,11 @@
+build_image: chetantarale/u12phppls:tiptest
+
 language: php
 
 php: 
-  - 5.4
-
+  - 5.6
+  - '7.0'
+  
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
