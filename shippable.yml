@@ -9,7 +9,7 @@ php:
   - '7.0'
   
 services:
-  - mysql
+  - [mysql]
   
 before_script: 
   - mkdir -p shippable/testresults
