@@ -1,6 +1,6 @@
 language: php
 
-build_image: chetantarale/u14phppls:tip
+build_image: chetantarale/u12phppls:includesmultiplephpunit
 
 php: 
   - 5.4
